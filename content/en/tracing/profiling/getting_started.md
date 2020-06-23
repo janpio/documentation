@@ -19,7 +19,7 @@ The Datadog Profiler requires [Java Flight Recorder][1]. The Datadog Profiling l
 
 1. If you are already using Datadog, upgrade your agent to version [7.20.2][2] or [6.20.2][2].
 
-2. Download `dd-java-agent.jar`, which contains the Java Agent class files, and add the `dd-trace-java` version to your `pom.xml` or equivalent:
+2. Download `dd-java-agent.jar`, which contains the Java Agent class files:
 
     ```shell
     wget -O dd-java-agent.jar 'https://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.datadoghq&a=dd-java-agent&v=LATEST'
